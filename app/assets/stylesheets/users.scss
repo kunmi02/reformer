@@ -10,19 +10,32 @@
 
 .inner-div {
 	flex-direction: column;
-	border: 1px solid black;
+	// border: 1px solid black;
 	border-radius: 5px;
 	padding: 10px 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 5px);
+	margin-top: 25px;
 }
 
 .submit {
 	margin-top: 10px;
 	outline: none;
-	padding: 3px 0;
+	padding: 5px 0;
+	font-size: 18px;
+	background-color: #16a058;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
 }
+
+h2 {color: forestgreen;}
 
 .text {
 	padding: 3px;
-	border-radius: 3px;
+	border: none;
+	border-bottom: 1px solid black;
 	outline: none;
+	margin: 10px 0;
+	font-size: 18px;
 }
