@@ -1,3 +1,28 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.field,
+.inner-div {
+	display: flex;
+	justify-content: center;
+}
+
+.inner-div {
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.submit {
+	margin-top: 10px;
+	outline: none;
+	padding: 3px 0;
+}
+
+.text {
+	padding: 3px;
+	border-radius: 3px;
+	outline: none;
+}

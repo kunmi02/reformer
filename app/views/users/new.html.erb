@@ -1,0 +1,17 @@
+<%= form_with(model: @user, local: true) do |form| %>
+  <div class="field">
+		<div class = 'inner-div'>
+			<h2>Create account</h2>
+				<%= form.label :Username %>
+				<%= form.text_field :Username, :class => 'text' %>
+
+				<%= form.label :Email %>
+				<%= form.email_field :Email, :class => 'text' %>
+
+				<%= form.label :Password %>
+				<%= form.password_field :Password, :class => 'text' %>
+
+				<%= form.submit 'submit', :class => 'submit' %>
+			</div>
+		</div>
+<% end %>
