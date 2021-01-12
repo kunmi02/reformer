@@ -1,12 +1,4 @@
-<%= form_for @user do |form| %>
-	<% @user.errors.any? %>
-	<% @user.errors.full_messages.each do |msg| %>
-		< class = "alert">
-			<p>
-				<%= msg %>
-			</p>
-		</div>
-	<% end %>		
+<%= form_for @user do |form| %>		
   <div class="field">
 		<div class = 'inner-div'>
 			<h2>Edit account</h2>
