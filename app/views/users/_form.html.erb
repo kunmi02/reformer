@@ -1,0 +1,56 @@
+<%= form_for @user do |form| %>		
+  <div class="field">
+		<div class = 'inner-div'>
+			<h2>Edit account</h2>
+		
+				<%= form.text_field :username, placeholder: "Username", :class => 'text' %>
+
+				<%= form.email_field :email, placeholder: "Email", :class => 'text' %>
+
+				<%= form.password_field :password, placeholder: "Password", :class => 'text' %>
+
+				<%= form.submit 'submit', :class => 'submit' %>
+			</div>
+		</div>
+<% end %>
+
+
+ <!-- <form accept-charset="UTF-8" action="users_path" method="post">
+   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+   <p>
+     <label for="username">Username:<br />
+     <input id="username" name="user[username]" type="text">
+   </p>
+   <p>
+     <label for="email">Email:<br />
+     <input id="email" name="user[email]" type="text">
+   </p>
+   <p>
+     <label for="password">Password:<br />
+     <input id="password" name="user[password]" type="password">
+   </p>
+   <p>
+     <input name="commit" type="submit" value="Create User" data-disable-with="Create User">
+   </p>
+ </form> -->
+
+
+    
+ <!-- <%#= form_for @user do |f| %>
+		<p>
+			<%#= f.label :username %><br />
+			<%#= f.text_field :username %>
+		</p>
+		<p>
+			<%#= f.label :email %><br />
+			<%#= f.text_field :email %>
+		</p>
+		<p>
+			<%#= f.label :password %><br />
+			<%#= f.password_field :password %>
+		</p>
+		<p>
+		<%#= f.submit %>
+		</p>
+	<%# end %> -->
+

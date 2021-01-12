@@ -1,0 +1,13 @@
+<h1>Current Users</h1>
+	<div>
+	<% @users.each do |user| %>
+      <div class ="div-user">
+				<div>
+					<p class ="para"><%= user.username %></p>
+				
+					<%= link_to "Edit", edit_user_path(user) %>
+					<%= link_to "Add user", new_user_path(user) %>
+				</div>
+			</div>
+    <% end %>
+	</div>
