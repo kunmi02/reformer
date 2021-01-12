@@ -1,7 +1,7 @@
 <%= form_for @user do |form| %>
 	<% @user.errors.any? %>
 	<% @user.errors.full_messages.each do |msg| %>
-		< class = "alert">
+		<div class = "alert">
 			<p>
 				<%= msg %>
 			</p>
