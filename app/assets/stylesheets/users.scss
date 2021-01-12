@@ -3,7 +3,8 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .field,
-.inner-div {
+.inner-div,
+.alert {
   display: flex;
   justify-content: center;
 }
@@ -38,3 +39,10 @@ h2 { color: forestgreen; }
   margin: 10px 0;
   font-size: 18px;
 }
+
+.alert {
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+
+
