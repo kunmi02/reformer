@@ -14,24 +14,24 @@
 		</div>
 <% end %>
 
-<form accept-charset="UTF-8" action="users_path" method="post">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-  <p>
-    <label for="username">Username:<br />
-    <input id="username" name="user[username]" type="text">
-  </p>
-  <p>
-    <label for="email">Email:<br />
-    <input id="email" name="user[email]" type="text">
-  </p>
-  <p>
-    <label for="password">Password:<br />
-    <input id="password" name="user[password]" type="password">
-  </p>
-  <p>
-    <input name="commit" type="submit" value="Create User" data-disable-with="Create User">
-  </p>
-</form> -->
+# <form accept-charset="UTF-8" action="users_path" method="post">
+#   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+#   <p>
+#     <label for="username">Username:<br />
+#     <input id="username" name="user[username]" type="text">
+#   </p>
+#   <p>
+#     <label for="email">Email:<br />
+#     <input id="email" name="user[email]" type="text">
+#   </p>
+#   <p>
+#     <label for="password">Password:<br />
+#     <input id="password" name="user[password]" type="password">
+#   </p>
+#   <p>
+#     <input name="commit" type="submit" value="Create User" data-disable-with="Create User">
+#   </p>
+# </form>
 
 <% #= form_for @user do |f| %>
   <ul id="users">
