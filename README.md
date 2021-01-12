@@ -18,7 +18,13 @@ git clone https://github.com/kunmi02/reformer.git
 $ cd reformer
 $ bundle install 
 $ yarn install --check-files
+$ rails db:migrate
+$ rails server
 ~~~
+
+Open your favorite web browser and type "calhost:3000/users/new" to create an account, or "calhost:3000/users" to verify if you have been added to the database.
+
+Use "calhost:3000/users/edit" to change your account information.
 
 ## Authors
 
