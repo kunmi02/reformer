@@ -4,7 +4,9 @@
 
 .field,
 .inner-div,
-.alert {
+.alert,
+.div-user,
+.edit {
   display: flex;
   justify-content: center;
 }
@@ -43,4 +45,23 @@ h2 { color: forestgreen; }
 .alert {
   color: #d8000c;
   background-color: #ffbaba;
+}
+
+.div-user {
+  background-color: grey;
+}
+
+.para {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0c4a6e;
+  border-radius: 5px;
+  padding: 3px 8px;
+  border: none;
+  color: #fff!important;
 }
