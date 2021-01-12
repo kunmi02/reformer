@@ -1,3 +1,4 @@
+# main user controller
 class UsersController < ApplicationController
   def index
     # @users = User.all

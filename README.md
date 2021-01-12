@@ -1,26 +1,54 @@
-# README
+# Forms-reformer project
 
-This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com
+This project was used to get our feets wet creating forms using Rails. In this project, a user can create an account through the form and save in the database.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby on Rails
+- Ruby
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Configuration
+$ cd  folder-name
 
-* Database creation
+~~~bash
+git clone https://github.com/kunmi02/reformer.git
+$ cd reformer
+$ bundle install 
+$ yarn install --check-files
+~~~
 
-* Database initialization
+## Authors
 
-* How to run the test suite
+👤 **Elisha Kyakopo**
 
-* Services (job queues, cache servers, search engines, etc.)
+- GitHub: [elisha2kyakpo1](https://github.com/elisha2kyakpo1)
+- LinkedIn: [Elisha Kyakopo](https://www.linkedin.com/in/elisha-kyakopo/)
 
-* Deployment instructions
+👤 **Azeez Ibrahim**
 
-* ...
+- GitHub: [@githubhandle](https://github.com/kunmi02)
+- Twitter: [@twitterhandle](https://twitter.com/akinkunmi006)
+- LinkedIn: [LinkedIn](https://linkedin.com/akinkunmi006)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## **Contributing**
+
+Contributions, issues and feature requests are welcome! Start by:
+
+- Forking the project
+- Cloning the project to your local machine
+- cd into the project directory
+- Run git checkout -b your-branch-name
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+## Show your support
+
+Give a ⭐️ if you like this project
